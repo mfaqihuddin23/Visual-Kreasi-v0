@@ -6,7 +6,7 @@ export default function HeroSpotlight() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/dark-moody-creative-studio-workspace.png"
+          src="/dark-moody-creative-studio-workspace.jpg"
           alt="Creative studio workspace"
           fill
           className="object-cover"

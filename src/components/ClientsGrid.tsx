@@ -1,4 +1,4 @@
-import { getClients } from "@/lib/data"
+import { getClients } from "../lib/data"
 
 export default async function ClientsGrid() {
   const clients = await getClients()

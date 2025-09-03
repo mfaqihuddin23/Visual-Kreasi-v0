@@ -1,5 +1,5 @@
 import CaseStudyCard from "./CaseStudyCard"
-import { getCaseStudies } from "@/lib/data"
+import { getCaseStudies } from "../lib/data"
 
 export default async function CaseStudyList() {
   const caseStudies = await getCaseStudies()

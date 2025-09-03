@@ -17,7 +17,15 @@ export default function CaseStudyCard({ title, category, image, href, featured =
   return (
     <Link href={href} className={cardClasses}>
       <div className={featured ? "aspect-video relative" : "w-24 h-16 relative flex-shrink-0"}>
-        <Image src={image || "/placeholder.svg"} alt={title} fill className="object-cover rounded-xl" />
+        <Image
+          src={
+            image ||
+            `/placeholder.svg?height=${featured ? 400 : 64}&width=${featured ? 600 : 96}&query=project thumbnail`
+          }
+          alt={title}
+          fill
+          className="object-cover rounded-xl"
+        />
       </div>
 
       <div className={featured ? "p-6" : "flex-1 min-w-0"}>

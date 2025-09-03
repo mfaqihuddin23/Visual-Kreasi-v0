@@ -1,4 +1,4 @@
-import { getStats } from "@/lib/data"
+import { getStats } from "../lib/data"
 
 export default async function AboutSection() {
   const stats = await getStats()

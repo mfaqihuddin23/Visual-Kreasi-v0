@@ -1,4 +1,4 @@
-import { getTestimonials } from "@/lib/data"
+import { getTestimonials } from "../lib/data"
 
 export default async function Testimonials() {
   const testimonials = await getTestimonials()

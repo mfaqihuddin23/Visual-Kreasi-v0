@@ -14,37 +14,37 @@ export async function getCaseStudies() {
     {
       title: "Develop a Mobile Application for Health Monitoring",
       category: "CASE STUDY",
-      image: "/mobile-health-app-interface.png",
+      image: "/mobile-health-app-interface.jpg",
       href: "/case-study/health-monitoring",
     },
     {
       title: "Revamp Bridal Event Landing Page",
       category: "WEB DESIGN",
-      image: "/elegant-bridal-website.png",
+      image: "/elegant-bridal-website.jpg",
       href: "/case-study/bridal-event",
     },
     {
       title: "Revamp Bridal Event Landing Page",
       category: "WEB DESIGN",
-      image: "/luxury-wedding-website.png",
+      image: "/luxury-wedding-website.jpg",
       href: "/case-study/bridal-event-2",
     },
     {
       title: "Revamp Bridal Event Landing Page",
       category: "WEB DESIGN",
-      image: "/modern-wedding-landing-page.png",
+      image: "/modern-wedding-landing-page.jpg",
       href: "/case-study/bridal-event-3",
     },
     {
       title: "Corporate Identity Design",
       category: "BRANDING",
-      image: "/corporate-branding-design.png",
+      image: "/corporate-branding-design.jpg",
       href: "/case-study/corporate-identity",
     },
     {
       title: "E-commerce Platform Redesign",
       category: "UX/UI DESIGN",
-      image: "/ecommerce-website-design.png",
+      image: "/ecommerce-website-design.jpg",
       href: "/case-study/ecommerce-redesign",
     },
   ]
